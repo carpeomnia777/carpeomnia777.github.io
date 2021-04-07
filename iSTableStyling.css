@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* CSS Document */
+
+table{
+  border: 20px groove darkgray;
+  border-collapse: collapse;
+}
+th, td{
+  border: 1px solid darkgray;
+  padding: 5px;
+  text-align: left;
+  vertical-align: top;
+  color: white;	
+}
+caption{
+  font-size: 1.5em;
+  text-align: left; 
+  	
+		
+}
+col#firstCol{
+  background-color: darkgoldenrod;
+  width: 150px;
+}
+
+col#hourCols{
+  width: 75px;
+}
+
+thead{
+  background-color: darkgrey;
+}
+td:hover{
+	background-color: darkgoldenrod;
+}

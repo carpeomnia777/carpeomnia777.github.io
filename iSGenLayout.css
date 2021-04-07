@@ -1,0 +1,141 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	/*background: linear-gradient(bottom left gold black);*/	
+	background-color:#363535;
+}
+
+/*h1:first-letter{
+	color: black;
+	animation-name: shimmer;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes shimmer{
+	from{color: black;}
+	to{color: grey;}
+	to{color: darkgoldenrod;}
+	to{color:grey;}
+	
+}*/
+.logo{
+  position: absolute;
+  top:-1%;
+  left:1%;
+  
+}
+.homeBG{
+	position: relative;
+	text-align: center;
+	color:white;
+	font-size: 5vw;
+}
+.welcome{
+	position: relative;
+	top: 50%;
+	left: 50%;
+	background-color: darkgrey;
+	border: groove darkgrey 1vw;
+	transform: translate(-50%,-50%);
+	
+}
+.content{
+	padding:10px;
+	display: flex;
+	flex-flow: row nowrap;
+	background-color: darkgray;
+	justify-content: center;
+	width:100%;
+}
+.content img{
+	width: 60%;
+}
+.content section{
+	width:60%;
+}
+h1.home{
+	text-align: center;
+	font-size: 48px;
+}
+nav.hor{
+	position: absolute;
+  	top: 1%;
+  	right: 1%;
+}
+nav.hor li{
+	display: inline-block;
+	text-align: left;
+	width: 40%;
+	float: left;
+	font-size: 3vw;
+	padding: 2px;
+}
+nav.hor a{
+	display: block;
+	text-decoration: none;
+	color: white;
+}
+nav.hor a:hover{
+	background-color: darkgoldenrod;
+}
+nav ul {
+	list-style: none;
+}
+footer.main{
+	background-color: darkgoldenrod;
+	text-align: center;
+	color: white;
+}
+section footer{
+	font-size: 1.5vw;
+	text-align: center;
+}
+section img:hover{
+	filter: grayscale();
+}
+p{	Position:relative;
+	overflow-y:auto;
+	max-height: 10%;
+	left:5%;
+	padding:10% 10% 10% 10%;
+	background-image: url('iSPBG.jpg');
+	text-align: center;
+}
+p:first-letter{
+	font-size: 36px;
+	color:darkgoldenrod;
+}
+aside, dt{
+	text-align: right;
+	color: white;
+	background-color: darkgoldenrod;
+	position: relative;
+	top:1%;
+	right:1%;
+	width:90%;
+}
+dt{
+	font-size: 3vw;
+}
+dd{
+	position: relative;
+    background-image: url('iSPBG.jpg');
+	width:90%;
+	text-align: right;
+	color: black;
+}
+h1{
+	background-color: darkgray;
+	position:relative;
+	width:30%;
+	color: white;
+	font-size: 3vw;
+	text-align: right;
+}
+@media screen and (max-width: 400px){
+	p:not:first-of-type{visibilty:hidden;}
+	.content{visibility: collapse;}
+	.welcome img{width: 100%;}
+}
